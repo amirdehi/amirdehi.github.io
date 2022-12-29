@@ -1,0 +1,42 @@
+body{
+    align-items: center;!important;
+    width: 98vw;!important;
+}
+
+#portfolio_section{
+    width: 72vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: solid white 2pt;
+    border-radius: 3pt;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#portfolio_section .portfolio_template{
+    width: 16vw;
+    height: 40vh;
+    color: white;
+    background-color: #2e3133;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+#portfolio_section .portfolio_template .portfolio_image{
+    height: 85%;
+    margin-bottom: 3px;
+    background-size: cover;
+    border-radius: 2px;
+    background-image: url("../images/p_calculator.png");
+}
+
+#portfolio_section .portfolio_template .portfolio_caption{
+    border-bottom: 1px solid white;
+}
