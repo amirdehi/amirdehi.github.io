@@ -646,7 +646,7 @@ p {
   padding-bottom: 50px;
 }
 
-#portfolio #portfolio-flters {
+#portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -655,7 +655,7 @@ p {
   padding: 2px 15px;
 }
 
-#portfolio #portfolio-flters li {
+#portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -668,12 +668,12 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-filters li:hover,
+#portfolio #portfolio-filters li.filter-active {
   color: #b8a07e;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
