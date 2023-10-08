@@ -474,6 +474,17 @@ p {
     font-weight: 500;
 }
 
+.cv-link {
+    color: white;
+    padding-bottom: 15px;
+    width: fit-content;
+}
+
+.cv-link:hover {
+    color: #b8a07e;
+    transition: all 0.5s ease-in-out 0s;
+}
+
 .hero-content .list-social li {
     float: left;
     margin-right: 20px;
@@ -482,6 +493,11 @@ p {
 .hero-content .list-social li i {
     color: #fff;
     font-size: 15px;
+}
+
+.hero-content .list-social li i:hover {
+    color: #b8a07e;
+    transition: all 0.5s ease-in-out 0s;
 }
 
 /*--------------------------------------------------------------
