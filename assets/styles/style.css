@@ -181,8 +181,7 @@ p {
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
-    background-color: #fff;
-    top: -100%;
+    background-color: #B76CB1;
     box-shadow: 0 2px 25px rgba(0, 0, 0, 0.08);
 }
 
@@ -203,7 +202,7 @@ p {
 }
 
 #header .logo a {
-    color: #898989;
+    color: black;
 }
 
 #header .logo img {
@@ -247,7 +246,7 @@ p {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 500;
-    color: #7e7d7d;
+    color: black;
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -263,7 +262,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #b8a07e;
+    color: #70376C;
 }
 
 .navbar .dropdown ul {
@@ -442,7 +441,7 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-    background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+    background-color: #351A33;
     height: 100vh;
     width: 100%;
 }
@@ -450,7 +449,7 @@ p {
 #hero .hero-content {
     height: 100vh;
     text-align: left;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -481,7 +480,7 @@ p {
 }
 
 .cv-link:hover {
-    color: #b8a07e;
+    color: #C88EC3;
     transition: all 0.5s ease-in-out 0s;
 }
 
@@ -496,10 +495,15 @@ p {
 }
 
 .hero-content .list-social li i:hover {
-    color: #b8a07e;
+    color: #C88EC3;
     transition: all 0.5s ease-in-out 0s;
 }
 
+.hero-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -567,13 +571,7 @@ p {
 #about {
     width: 100%;
     height: auto;
-    background: #f7f7f7;
     padding-top: 120px;
-}
-
-#about .div-img-bg {
-    padding-bottom: 30px;
-    border: 20px solid #b8a07e;
 }
 
 #about .div-img-bg .about-img img {
