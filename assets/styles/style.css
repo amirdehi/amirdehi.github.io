@@ -20,7 +20,7 @@ header {
 
 body {
     background: #3C9FFD;
-    color: black;
+    color: #303337;
     font-family: "Roboto", serif;
     font-size: 15px;
     font-weight: 300;
@@ -117,7 +117,7 @@ section {
     margin: 10px;
 }
 
-/* Social Links Section */
+/* Social Links */
 .social-links {
     text-align: center;
     font-size: 15px;
@@ -146,6 +146,7 @@ section {
     color: black;
 }
 
+/* Scroll Down */
 .scroll-down-arrow {
     position: absolute;
     bottom: 60px;
@@ -168,12 +169,85 @@ section {
     background-color: #2ecc71;
 }
 
+/* Latest Works section */
 #works {
-    background-color: #9b59b6;
+    padding: 50px 20px;
+    text-align: center;
+    flex-direction: column;
 }
 
 #posts {
-    background-color: #b6b159;
+    padding: 50px 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Items and Grid for show */
+.grid-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #303337;
+}
+
+.grid-items-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #FD9A3C;
+}
+
+.grid-item h3 {
+    font-size: 1.5rem;
+    margin: 15px;
+    color: #3C9FFD;
+}
+
+.grid-item p {
+    font-size: 1rem;
+    margin: 0 15px 15px;
+}
+
+.grid-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Show More Button */
+.show-more {
+    margin-top: 40px;
+}
+
+.show-more a {
+    background-color: #303337;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.show-more a:hover {
+    background-color: white;
+    color: #303337;
 }
 
 /* Footer text */
