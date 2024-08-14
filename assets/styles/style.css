@@ -1,3 +1,86 @@
+/* General */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background: #E5B383;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background: #83B5E5;
+    color: black;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #E5B383;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+/* Nav bar */
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 15px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar a:hover {
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+}
+
+/* Footer text */
+footer a{
+    text-decoration: none;
+    color: #1d2b5a;
+    font-weight: 350;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #041553;
+}
 
 /* Styles for tablets and small screens */
 @media (max-width: 768px) {
