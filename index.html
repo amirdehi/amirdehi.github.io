@@ -6,12 +6,13 @@
     <!-- Encoding -->
     <meta charset="UTF-8">
     <!-- Responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <!-- Robots and Crawlers -->
     <meta name="robots" content="index, follow">
     <!-- SEO Meta Tags -->
     <meta name="description" content="I'm Ali Ramezanpour, a hard working software engineer">
-    <meta name="keywords" content="software engineer, web developer, android developer, unity developer, java developer python developer, portfolio, blog, resume">
+    <meta name="keywords"
+          content="software engineer, web developer, androclass developer, unity developer, java developer python developer, portfolio, blog, resume">
     <!-- Open Graph Tags (for Facebook, LinkedIn, etc.) -->
     <meta property="og:title" content="Ali Ramezanpour">
     <meta property="og:description" content="I'm Ali Ramezanpour, a hard working software engineer">
@@ -20,7 +21,7 @@
     <meta name="twitter:title" content="Ali Ramezanpour">
     <meta name="twitter:description" content="I'm Ali Ramezanpour, a hard working software engineer">
     <meta name="twitter:image" content="https://amirdehi.ir/assets/images/favicon.png">
-    <!-- Theme Color, affects the status bar color on Android -->
+    <!-- Theme Color, affects the status bar color on Androclass -->
     <meta name="theme-color" content="#83B5E5">
     <!-- Title -->
     <title>Ali Ramezanpour</title>
@@ -29,7 +30,8 @@
     <!-- Personalized styles -->
     <link href="assets/styles/style.css" rel="stylesheet">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
@@ -37,27 +39,59 @@
 
 <body>
 
-    <header id="header">
-        <nav id="navbar" class="navbar">
+<header class="header">
+    <nav class="navbar">
+        <ul>
+            <li><a class="nav-link" href="#hero">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#services">Services</a></li>
+            <li><a class="nav-link" href="#works">Portfolio</a></li>
+            <li><a class="nav-link" href="#posts">Blog</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="hero">
+        <img class="hero-logo" src="assets/images/logo.png" alt="Logo">
+        <span class="hero-title">Ali Ramezanpour</span>
+        <span class="hero-subtitle">Software Engineer</span>
+        <div class="social-links">
             <ul>
-                <li><a class="nav-link" href="#hero">Home</a></li>
-                <li><a class="nav-link" href="#about">About</a></li>
-                <li><a class="nav-link" href="#services">Services</a></li>
-                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link" href="#journal">Blog</a></li>
+                <li><a href="mailto:ali.r.amirdehi@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="tel:+989904977317"><i class="fas fa-phone"></i></a></li>
+                <li><a href="https://t.me/warhram" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                <li><a href="https://wa.me/+989904977317" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/ali.r.amirdehi" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/ali-r-amirdehi" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li><a href="https://github.com/amirdehi" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.youtube.com/@AliGeekWorld" target="_blank"><i class="fab fa-youtube"></i></a>
+                </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+        <div class="scroll-down-arrow"><a class="nav-link" href="#about"><i class="fa-solid fa-chevron-down"></i></a></div>
+    </section>
+    <section id="about">
 
-    <div id="container">
-        <div id="hero"></div>
-    </div>
+    </section>
+    <section id="services">
 
-    <footer id="footer">
-        <p>&copy; Copyrights <a href="https://amirdehi.ir/">Ali Ramezanpour</a>. All rights reserved.</p>
-    </footer>
+    </section>
+    <section id="works">
 
-    <script src="/assets/scripts/main.js"></script>
+    </section>
+    <section id="posts">
+
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; Copyrights <a href="https://amirdehi.ir/">Ali Ramezanpour</a>. All rights reserved.</p>
+</footer>
+
+<script src="/assets/scripts/main.js"></script>
 
 </body>
 </html>
