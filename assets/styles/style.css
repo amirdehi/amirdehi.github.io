@@ -4,12 +4,12 @@ header {
     top: 0;
     z-index: 1000;
     width: 100%;
-    background: #E5B383;
+    background: #FD9A3C;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 body {
-    background: #83B5E5;
+    background: #3C9FFD;
     color: black;
     font-family: "Roboto", serif;
     font-size: 15px;
@@ -28,7 +28,7 @@ footer {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #E5B383;
+    background-color: #FD9A3C;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-size: 10px;
@@ -71,13 +71,13 @@ footer {
 }
 
 /* Footer text */
-footer a{
+footer a {
     text-decoration: none;
     color: #1d2b5a;
     font-weight: 350;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
     color: #041553;
 }
