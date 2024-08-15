@@ -3,76 +3,188 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Personal website of Ali Ramezanpour">
-    <meta name="keywords" content="Ali Ramezanpour, Developer, Engineer">
-
+    <!-- Encoding -->
+    <meta charset="UTF-8">
+    <!-- Responsive -->
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <!-- Robots and Crawlers -->
+    <meta name="robots" content="index, follow">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="I'm Ali Ramezanpour, a hard working software engineer">
+    <meta name="keywords"
+          content="software engineer, web developer, androclass developer, unity developer, java developer python developer, portfolio, blog, resume">
+    <!-- Open Graph Tags (for Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Ali Ramezanpour">
+    <meta property="og:description" content="I'm Ali Ramezanpour, a hard working software engineer">
+    <meta property="og:image" content="https://amirdehi.ir/assets/images/favicon.png">
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Ali Ramezanpour">
+    <meta name="twitter:description" content="I'm Ali Ramezanpour, a hard working software engineer">
+    <meta name="twitter:image" content="https://amirdehi.ir/assets/images/favicon.png">
+    <!-- Theme Color, affects the status bar color on Androclass -->
+    <meta name="theme-color" content="#83B5E5">
+    <!-- Title -->
     <title>Ali Ramezanpour</title>
-
-    <link href="assets/images/favicon.png" rel="icon">
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
-          rel="stylesheet">
-
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-
+    <!-- Icon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- Personalized styles -->
     <link href="assets/styles/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<header id="header" class="fixed-top">
-
-    <div class="container d-flex align-items-center justify-content-between">
-
-        <h1 class="logo"><a href="https://www.amirdehi.ir"><img class="logo" src="/assets/images/favicon.png" alt="logo"/></a></h1>
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link active" href="#hero">Home</a></li>
-                <li><a class="nav-link" href="/assets/portfolios/portfolios.html">Portfolio</a></li>
-                <li><a class="nav-link" href="/assets/posts/posts.html">Blog</a></li>
-                <li><a class="nav-link" href="/assets/files/CV.pdf">Visit my resume</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-
-    </div>
-
+<header class="header">
+    <nav class="navbar">
+        <ul>
+            <li><a class="nav-link" href="#hero">Home</a></li>
+            <li><a class="nav-link" href="#about-me">About</a></li>
+            <li><a class="nav-link" href="#services">Services</a></li>
+            <li><a class="nav-link" href="#works">Portfolio</a></li>
+            <li><a class="nav-link" href="#posts">Blog</a></li>
+        </ul>
+    </nav>
 </header>
 
-<div id="hero" class="home">
-
-    <div class="container hero-container">
-        <div class="hero-content col-lg-4">
-            <h1>Ali Ramezanpour</h1>
-            <p>
-                I'm
-                <span class="typed" data-typed-items="a Web, an Android, a Unity"></span>
-                Developer
-            </p>
-
-            <a href="/assets/files/CV.pdf" title="Visit my resume" class="cv-link">Visit my resume</a>
-
-            <ul class="list-unstyled list-social">
-                <li><a href="https://www.linkedin.com/in/ali-r-amirdehi/" title="Linkedin"><i class="bi bi-linkedin"></i></a></li>
-                <li><a href="https://github.com/amirdehi" title="Github"><i class="bi bi-github"></i></a></li>
-                <li><a href="https://www.youtube.com/@AliGeekWorld" title="YouTube"><i class="bi bi-youtube"></i></a></li>
-                <li><a href="mailto:ali.r.amirdehi@gmail.com" title="E-mail"><i class="bi bi-envelope-at"></i></a></li>
-                <li><a href="https://wa.me/+989904977317" title="Whatsapp"><i class="bi bi-whatsapp"></i></a></li>
-                <li><a href="https://dribbble.com/amirdehi" title="Dribbble"><i class="bi bi-dribbble"></i></a></li>
-                <li><a href="tel:+989904977317" title="Phone "><i class="bi bi-telephone"></i></a></li>
+<main>
+    <section id="hero">
+        <img class="hero-logo" src="assets/images/logo.png" alt="Logo">
+        <span class="hero-title">Ali Ramezanpour</span>
+        <span class="hero-subtitle">Software Engineer</span>
+        <div class="social-links">
+            <ul>
+                <li><a href="mailto:ali.r.amirdehi@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="tel:+989904977317"><i class="fas fa-phone"></i></a></li>
+                <li><a href="https://t.me/warhram" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                <li><a href="https://wa.me/+989904977317" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/ali.r.amirdehi" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/ali-r-amirdehi" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li><a href="https://github.com/amirdehi" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.youtube.com/@AliGeekWorld" target="_blank"><i class="fab fa-youtube"></i></a>
+                </li>
             </ul>
         </div>
-    </div>
-</div>
+        <div class="scroll-down-arrow"><a class="nav-link" href="#about-me"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+    </section>
+    <section id="about-me">
+        <div class="about-me-content">
+            <h2 class="about-me-title">About Me</h2>
+            <p>
+                My name is Ali Ramezanpour Amirdehi, a 25-year-old software engineer currently working at NRDC in Tehran, Iran. I am on a journey to become a full-stack developer, driven by a passion for challenges and the excitement of trying new things. My career began with a love for photography during my school years, but my focus shifted to programming when I entered university.
+            </p>
+            <p>
+                With over 3.5 years of professional experience in Java web programming, I've honed my skills in various areas of software development. My expertise extends beyond web development, encompassing image processing, Android application development, Unity game creation, and more. Each project I undertake is a new opportunity to innovate and push the boundaries of what's possible in the digital world.
+            </p>
+        </div>
+    </section>
+    <section id="services">
+        <h2 class="service-title">My Skills and Technologies</h2>
+        <div class="service-grid">
+            <!-- Web Development -->
+            <div class="service-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Development</h3>
+                <p>Expertise in HTML, CSS, JavaScript, and modern frameworks to build responsive, user-friendly websites.</p>
+            </div>
 
-<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/vendor/typed.js/typed.umd.js"></script>
+            <!-- Android Development -->
+            <div class="service-item">
+                <i class="fab fa-android"></i>
+                <h3>Android Development</h3>
+                <p>Developing Android applications using Java in Android Studio, focusing on performance and UX.</p>
+            </div>
+
+            <!-- Unity Development -->
+            <div class="service-item">
+                <i class="fab fa-unity"></i>
+                <h3>Unity Development</h3>
+                <p>Creating 2D and 3D games and applications in Unity using C#, with a focus on interactive experiences.</p>
+            </div>
+
+            <!-- Python Development -->
+            <div class="service-item">
+                <i class="fab fa-python"></i>
+                <h3>Python Development</h3>
+                <p>Specializing in Python for image processing, automation, and general-purpose programming.</p>
+            </div>
+
+            <!-- Java Web Development -->
+            <div class="service-item">
+                <i class="fab fa-java"></i>
+                <h3>Java Web Development</h3>
+                <p>Building robust web applications using Java with frameworks like Spring, Struts, and Hibernate.</p>
+            </div>
+
+            <!-- Database Management -->
+            <div class="service-item">
+                <i class="fas fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Expert in SQL databases like Oracle and MSSQL, focusing on efficient data management and queries.</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="works">
+        <h2 class="grid-title">Latest Works</h2>
+        <div class="grid-items-list">
+            <a href="portfolio-detail1.html" class="grid-item">
+                <img src="assets/images/portfolios/portfolio1.jpg" alt="Portfolio 1">
+                <h3>Project Title 1</h3>
+                <p>Short description of the first project, highlighting its key features.</p>
+            </a>
+            <a href="portfolio-detail2.html" class="grid-item">
+                <img src="assets/images/portfolios/portfolio2.jpg" alt="Portfolio 2">
+                <h3>Project Title 2</h3>
+                <p>Short description of the second project, highlighting its key features.</p>
+            </a>
+            <a href="portfolio-detail3.html" class="grid-item">
+                <img src="assets/images/portfolios/portfolio3.jpg" alt="Portfolio 3">
+                <h3>Project Title 3</h3>
+                <p>Short description of the third project, highlighting its key features.</p>
+            </a>
+        </div>
+        <div class="show-more">
+            <a href="assets/portfolios/works.html">Show More</a>
+        </div>
+    </section>
+    <section id="posts">
+        <h2 class="grid-title">Latest Posts</h2>
+        <div class="grid-items-list">
+            <a href="post-detail1.html" class="grid-item">
+                <img src="assets/images/posts/post1.jpg" alt="Post 1">
+                <h3>Post Title 1</h3>
+                <p>Short description of the first post, highlighting its key features.</p>
+            </a>
+            <a href="post-detail2.html" class="grid-item">
+                <img src="assets/images/posts/post2.jpg" alt="Post 2">
+                <h3>Post Title 2</h3>
+                <p>Short description of the second post, highlighting its key features.</p>
+            </a>
+            <a href="post-detail3.html" class="grid-item">
+                <img src="assets/images/posts/post3.jpg" alt="Post 3">
+                <h3>Post Title 3</h3>
+                <p>Short description of the third post, highlighting its key features.</p>
+            </a>
+        </div>
+        <div class="show-more">
+            <a href="assets/posts/blog.html">Show More</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; Copyrights <a href="https://amirdehi.ir/">Ali Ramezanpour</a>. All rights reserved.</p>
+</footer>
+
 <script src="/assets/scripts/main.js"></script>
 
 </body>
