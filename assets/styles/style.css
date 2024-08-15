@@ -161,12 +161,86 @@ section {
     text-decoration: none;
 }
 
-#about {
-    background-color: #e74c3c;
+/* About Me Section Styling */
+#about-me {
+    padding: 50px 20px;
+    color: #303337;
+    text-align: left;
 }
 
+.about-me-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-me-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #303337;
+    text-align: center;
+}
+
+#about-me p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #303337;
+    font-weight: 400;
+}
+
+/* Services */
 #services {
-    background-color: #2ecc71;
+    padding: 50px 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.service-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #303337;
+}
+
+/* Grid Layout */
+.service-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Service Item Styling */
+.service-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 30vw;
+    text-wrap: wrap;
+}
+
+.service-item i {
+    font-size: 40px;
+    color: #3c9ffd;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    font-size: 1.2rem;
+    color: #3c9ffd;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 0.9rem;
+    color: #303337;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Latest Works section */
